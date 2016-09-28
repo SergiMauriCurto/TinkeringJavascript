@@ -1,8 +1,13 @@
-/**
- * Created by alumne on 28/09/16.
- */
+function hola($name) {
+    console.log('Hola ' + $name);
 
-console.log('Hello World at external file');
+}
+hola('Sergi');
 
+//console.log('Hello World at external file');
+
+//$name = 'Sergi';
+
+//window.alert(window.$name);
 
 
