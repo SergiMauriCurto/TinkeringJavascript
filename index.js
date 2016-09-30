@@ -1,31 +1,33 @@
+// OOP: Object Oriented Programming
+
+//JSON JavaScript Object Notation
+
+//JSON
+
+
+
+Person.hello = function() {
+
+
+}
+
+// Object Literal Notation
 
 var person = {
+    name : "Sergi",
+    sn1 : "Sergi",
+    sn2 : "Sergi",
 
-    'name' : 'Sergi',
-    'sn1' : 'Mauri',
-    'age' : 20
+    hello: function () {
+        console.log('Hola' + this.name);
+
+    }
+
+    hello: function () {
+        console.log('Bye Bye' + this.name);
+    }
+
 }
 
-var hello = function () {
-
-}
-
-function hello () {
-
-}
-
-hello();
-
-//var Person = {}
-//Person.name = 'Sergi';
-//Person.sn1 = 'Sergi';
-//Person.sn2 = 'Mauri';
-
-//Person.hello = function () {
-  //  console.log('Hola mon!');
-//}
-
-//Person.hello()
-//Router:get('/login', function () ){
-
-//}
+console.log(person.name):
+console.log(person.hello()):
