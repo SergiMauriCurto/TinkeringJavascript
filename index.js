@@ -1,33 +1,8 @@
-// OOP: Object Oriented Programming
+//Javasrcipt tradicional
 
-//JSON JavaScript Object Notation
+//Asincron
 
-//JSON
-
-
-
-Person.hello = function() {
-
-
-}
-
-// Object Literal Notation
-
-var person = {
-    name : "Sergi",
-    sn1 : "Sergi",
-    sn2 : "Sergi",
-
-    hello: function () {
-        console.log('Hola' + this.name);
-
-    }
-
-    hello: function () {
-        console.log('Bye Bye' + this.name);
-    }
-
-}
-
-console.log(person.name):
-console.log(person.hello()):
+hello = document.getElementById('hello');
+hello.style.display = "name";
+hello.innerHTML('hola');
+console.log(hello);
