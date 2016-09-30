@@ -1,30 +1,10 @@
+myFunction();
 
-var/let_/const
+// code here can use carName
 
-    $a = ""
+console.log(i);
 
-function fire(bool) {
-
-    var foo
-
-    if (bool) {
-        foo = 'bar';
-
-        console.log(foo);
-
-    } else {
-        console.log(foo);
-
-    }
+function myFunction() {
+    var i = "Volvo";
 }
-
-fire(false);
-
-
-//console.log('Hello World at external file');
-
-//$name = 'Sergi';
-
-//window.alert(window.$name);
-
 
