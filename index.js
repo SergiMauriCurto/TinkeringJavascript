@@ -6,17 +6,26 @@ var person = {
     'age' : 20
 }
 
-
-var Person = {}
-Person.name = 'Sergi';
-Person.sn1 = 'Sergi';
-Person.sn2 = 'Mauri';
-
-Person.hello = function () {
-    console.log('Hola mon!');
-}
-
-Person.hello()
-Router:get('/login', function () ){
+var hello = function () {
 
 }
+
+function hello () {
+
+}
+
+hello();
+
+//var Person = {}
+//Person.name = 'Sergi';
+//Person.sn1 = 'Sergi';
+//Person.sn2 = 'Mauri';
+
+//Person.hello = function () {
+  //  console.log('Hola mon!');
+//}
+
+//Person.hello()
+//Router:get('/login', function () ){
+
+//}
