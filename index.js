@@ -1,7 +1,14 @@
+
+var/let_/const
+
+    $a = ""
+
 function fire(bool) {
 
+    var foo
+
     if (bool) {
-        var foo = 'bar';
+        foo = 'bar';
 
         console.log(foo);
 
