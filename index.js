@@ -1,25 +1,13 @@
-// variable global
-$a =
+function hello () {
 
-    function () {
+    $name ='Sergi';
+    console.log('Hola' + $name);
 
-    $a = "";
+}
 
-        //variable local
+//console.log($name);
 
-    $a="";
-
-        if {
-
-        } else {
-
-            
-        }
-
-
-
-
-    }
+//hello();
 
 
 
