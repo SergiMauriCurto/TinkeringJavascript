@@ -1,8 +1,27 @@
-function hola($name) {
-    console.log('Hola ' + $name);
+// variable global
+$a =
 
-}
-hola('Sergi');
+    function () {
+
+    $a = "";
+
+        //variable local
+
+    $a="";
+
+        if {
+
+        } else {
+
+            
+        }
+
+
+
+
+    }
+
+
 
 //console.log('Hello World at external file');
 
