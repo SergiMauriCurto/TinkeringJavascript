@@ -1,13 +1,15 @@
 function hello () {
 
-    $name ='Sergi';
-    console.log('Hola' + $name);
+    if (bool) {
+        foo = 'bar';
 
+        console.log(foo);
+
+    } else {
+        console.log(foo);
+
+    }
 }
-
-//console.log($name);
-
-//hello();
 
 
 
