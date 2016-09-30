@@ -1,10 +1,16 @@
-myFunction();
 
-// code here can use carName
+var person = {
 
-console.log(i);
-
-function myFunction() {
-    var i = "Volvo";
+    'name' : 'Sergi',
+    'sn1' : 'Mauri',
+    'age' : 20
 }
 
+
+var myApp = {}
+myApp.name = 'Sergi';
+myApp.hello = function () {
+    console.log('Hola mon!');
+}
+
+myApp.hello()
