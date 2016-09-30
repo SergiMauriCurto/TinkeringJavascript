@@ -7,10 +7,16 @@ var person = {
 }
 
 
-var myApp = {}
-myApp.name = 'Sergi';
-myApp.hello = function () {
+var Person = {}
+Person.name = 'Sergi';
+Person.sn1 = 'Sergi';
+Person.sn2 = 'Mauri';
+
+Person.hello = function () {
     console.log('Hola mon!');
 }
 
-myApp.hello()
+Person.hello()
+Router:get('/login', function () ){
+
+}
