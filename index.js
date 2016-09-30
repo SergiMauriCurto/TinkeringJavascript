@@ -1,7 +1,7 @@
-function hello () {
+function fire(bool) {
 
     if (bool) {
-        foo = 'bar';
+        var foo = 'bar';
 
         console.log(foo);
 
@@ -11,6 +11,7 @@ function hello () {
     }
 }
 
+fire(false);
 
 
 //console.log('Hello World at external file');
